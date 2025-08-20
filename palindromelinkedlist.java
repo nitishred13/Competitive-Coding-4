@@ -1,4 +1,10 @@
 public class palindromelinkedlist {
+
+    //Idea is to calculate middle node, reverse second half and then compare 
+    //first half with second half element by element
+
+    //Time Complexity: O(n)
+    //Space Complexity: O(1)
         public boolean isPalindrome(ListNode head) {
         //Find the middle node
         ListNode fast = head, slow = head;

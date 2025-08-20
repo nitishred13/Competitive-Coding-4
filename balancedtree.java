@@ -1,5 +1,11 @@
 import javax.swing.tree.TreeNode;
 
+//Idea is to calculate left and right subtree at each nodes and
+//maintain a global flag to mark if the balanced tree rule doesnot follow at 
+//any node.
+
+//Time Complexity: O(n)
+//Space Complexity: O(n)
 public class balancedtree {
         boolean flag = true;
     public boolean isBalanced(TreeNode root) {
